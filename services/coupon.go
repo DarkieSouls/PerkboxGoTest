@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rychanfox/couponService/modal"
+	"../modal"
 
 	"github.com/gorilla/mux"
 )

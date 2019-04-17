@@ -21,7 +21,7 @@ func initStorage() *sql.DB {
 		panic(err)
 	}
 
-	statement, err := db.Prepare("CREATE TABLE IF NOT EXISTS coupon (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, value INT, createdAt DATETIME, expiry DATETIME)")
+	statement, err := db.Prepare("CREATE TABLE IF NOT EXISTS coupon (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, value INT, createdAt DATETIME, expiry DATETIME, redeemed INT)")
 	if err != nil {
 		panic(err)
 	}
