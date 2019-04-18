@@ -1,7 +1,7 @@
 # PerkboxGoTest
 
 ### To do
-- Add unit tests
+- Add more unit tests
 - Return error messages if a request fails
 - Return success messages if a request succeeds
 - Remove "redeemed" from request bodies
